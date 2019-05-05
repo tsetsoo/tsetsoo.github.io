@@ -303,12 +303,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
+  margin: auto;
   max-width: 50vw;
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
