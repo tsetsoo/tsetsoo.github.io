@@ -1,0 +1,38 @@
+.container {
+  margin: 13% 0%;
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.centered-image {
+  max-width: 75%;
+  max-height: 75%;  
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#logo {
+  max-width: 43%;
+  max-height: 43%;  
+}
+body {
+  font-family: VT323;
+  color: #84f938;
+}
+
+.centered-text-top {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 1200%;
+}
+
+.centered-text-bottom {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
