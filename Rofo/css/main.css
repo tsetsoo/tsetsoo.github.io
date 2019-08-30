@@ -1,38 +1,112 @@
 .container {
-  margin: 13% 0%;
-  width:100%;
+  margin-bottom: 13%;
   height: 100%;
   position: relative;
 }
 
 .centered-image {
-  max-width: 75%;
-  max-height: 75%;  
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
+
+.centered-image-top {
+  width: 75%;
+}
+
+.centered-image-bottom {
+  width: 70%;
+}
+
 
 #logo {
   max-width: 43%;
   max-height: 43%;  
 }
 body {
-  font-family: VT323;
+  font-family: VT323, monospace;
   color: #84f938;
+  margin: 0px;
+}
+
+.theme-text {
+  position: absolute;
+  left: 23%;
 }
 
 .centered-text-top {
-  position: absolute;
   top: 0%;
-  left: 50%;
-  transform: translate(-50%, -40%);
   font-size: 1200%;
 }
 
-.centered-text-bottom {
-  position: absolute;
+.centered-text-middle {
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -60%);
+  font-size: 660%;
 }
+
+.centered-text-bottom {
+  top: 45%;
+  font-size: 430%;
+}
+
+.register-text-top {
+  position: absolute;
+  left: 21%;
+  top: 30%;
+  font-size: 1200%;
+}
+
+.register-text-bottom {
+  position: absolute;
+  left: 35%;
+  top: 70%;
+  font-size: 400%;
+}
+
+.text-strip {
+  position: absolute;
+  font-size: 800%;
+  text-transform: uppercase;
+}
+
+.left-text {
+  left: 14.5%;
+}
+
+.right-text {
+  right: 13%;
+}
+
+.line {
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 7.5%;
+}
+
+.float-right {
+  width: 87.3%;
+  float: right;
+}
+
+.float-left {
+  width: 90%;
+  float: left;
+}
+
+.box-themes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  font-size: 500%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+td {
+  padding-left: 180px;
+}
+
+ tr>td:first-child {
+   padding:0px;
+ }
