@@ -1,0 +1,156 @@
+.container {
+  margin-bottom: 13%;
+  margin-top: 13%;
+  min-height: 100%;
+  position: relative;
+  overflow-wrap: break-word;
+}
+
+.centered-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centered-image-top {
+  width: 75%;
+}
+
+.centered-image-bottom {
+  width: 70%;
+}
+
+#logo {
+  max-width: 43%;
+}
+body {
+  font-family: VT323, monospace;
+  color: #84f938;
+  margin: 0px;
+  line-height: 0.9;
+}
+
+.theme-text {
+  position: absolute;
+  left: 23%;
+}
+
+.centered-text-top {
+  top: 0%;
+  font-size: 10vw;
+}
+
+.centered-text-middle {
+  top: 25%;
+  font-size: 6.2vw;
+}
+
+.centered-text-bottom {
+  top: 40%;
+  font-size: 4.08vw;
+}
+
+.register-text-top {
+  position: absolute;
+  left: 19%;
+  bottom: 0%;
+  font-size: 12vw;
+}
+
+.register-text-bottom {
+  position: absolute;
+  left: 35%;
+  bottom: 8%;
+  font-size: 4vw;
+}
+
+.text-strip {
+  position: absolute;
+  font-size: 7.8vw;
+  text-transform: uppercase;
+  vertical-align: text-top;
+  top: 0%;
+}
+
+.left-text {
+  left: 14.5%;
+}
+
+.right-text {
+  right: 13%;
+}
+
+.line {
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 7.5%;
+}
+
+.float-right {
+  width: 87.3%;
+  float: right;
+}
+
+.float-left {
+  width: 90%;
+  float: left;
+}
+
+.box-themes {
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  font-size: 5vw;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.text-box {
+  background-color: #80ff80;
+  position: relative;
+  height: 15%;
+  width: 15%;
+}
+
+td {
+  padding-left: 180px;
+}
+
+tr>td:first-child {
+  padding:0px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#simo {
+  transform: translate3d(28.2%, 21.2%, 0);
+}
+
+#petar {
+  transform: translate3d(290.2%, -73.8%, 0);
+}
+
+#tedo {
+  transform: translate3d(540.2%, -218.8%, 0);
+}
+
+#tsetso {
+  transform: translate3d(144.2%, -207.3%, 0);
+}
+
+#gabi {
+  transform: translate3d(415.2%, -317.8%, 0);
+}
+
+.team-photo {
+  position: relative;
+  height: 15%;
+  width: 15%;
+}
